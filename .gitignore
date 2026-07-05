@@ -1,0 +1,4 @@
+bin/
+.settings/
+db.properties
+Thumbs.db
