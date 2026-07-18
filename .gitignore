@@ -41,3 +41,6 @@ db.properties
 
 # Windows
 Thumbs.db
+
+#Eclipse
+.settings/
