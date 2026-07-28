@@ -6,7 +6,7 @@
 
 
 
-\## 📋 About
+\## About
 
 
 
@@ -18,7 +18,7 @@ in the \[seller-department-api](https://github.com/Lucileudo-Lopes/seller-depart
 
 
 
-\## 🛠 Tech Stack
+\## Tech Stack
 
 
 
@@ -34,7 +34,7 @@ in the \[seller-department-api](https://github.com/Lucileudo-Lopes/seller-depart
 
 
 
-\## ✅ Features
+\## Features
 
 
 
@@ -50,7 +50,7 @@ in the \[seller-department-api](https://github.com/Lucileudo-Lopes/seller-depart
 
 
 
-\## ⚙️ How to run
+\## How to run
 
 
 
@@ -94,11 +94,11 @@ USE coursejdbc;
 
 CREATE TABLE department (
 
-&#x20; Id int(11) NOT NULL AUTO\_INCREMENT,
+Id int(11) NOT NULL AUTO\_INCREMENT,
 
-&#x20; Name varchar(60) DEFAULT NULL,
+Name varchar(60) DEFAULT NULL,
 
-&#x20; PRIMARY KEY (Id)
+PRIMARY KEY (Id)
 
 );
 
@@ -106,21 +106,21 @@ CREATE TABLE department (
 
 CREATE TABLE seller (
 
-&#x20; Id int(11) NOT NULL AUTO\_INCREMENT,
+Id int(11) NOT NULL AUTO\_INCREMENT,
 
-&#x20; Name varchar(60) NOT NULL,
+Name varchar(60) NOT NULL,
 
-&#x20; Email varchar(100) NOT NULL,
+Email varchar(100) NOT NULL,
 
-&#x20; BirthDate datetime NOT NULL,
+BirthDate datetime NOT NULL,
 
-&#x20; BaseSalary double NOT NULL,
+BaseSalary double NOT NULL,
 
-&#x20; DepartmentId int(11) NOT NULL,
+DepartmentId int(11) NOT NULL,
 
-&#x20; PRIMARY KEY (Id),
+PRIMARY KEY (Id),
 
-&#x20; FOREIGN KEY (DepartmentId) REFERENCES department (Id)
+FOREIGN KEY (DepartmentId) REFERENCES department (Id)
 
 );
 
@@ -128,7 +128,7 @@ CREATE TABLE seller (
 
 
 
-\## 📁 Project Structure
+\## Project Structure
 
 
 
@@ -158,13 +158,12 @@ src/
 
 
 
-\## 🔗 Next version
+\## Next version
 
 
 
 This project was migrated to a professional Spring Boot REST API:
-
-👉 \[seller-department-api](https://github.com/Lucileudo-Lopes/seller-department-api)
+ \[seller-department-api](https://github.com/Lucileudo-Lopes/seller-department-api)
 
 
 
